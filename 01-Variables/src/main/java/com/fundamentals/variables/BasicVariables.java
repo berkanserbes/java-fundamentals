@@ -48,5 +48,19 @@ public class BasicVariables {
         System.out.println("Float:     " + wrapperFloat);
         System.out.println("Double:    " + wrapperDouble);
         System.out.println("String:    " + myString);
+
+        // Numeric Literals with Underscores (Java 7+)
+        System.out.println("\n--- Numeric Literals with Underscores ---");
+        int million = 1_000_000;
+        long creditCard = 1234_5678_9012_3456L;
+        int binary = 0b1010_1010_1010;
+        int hex = 0xFF_EC_DE_5E;
+        double pi = 3.141_592_653_589;
+
+        System.out.println("Million:      " + million);
+        System.out.println("Credit card:  " + creditCard);
+        System.out.println("Binary:       " + binary);
+        System.out.println("Hexadecimal:  " + hex);
+        System.out.println("Pi:           " + pi);
     }
 }
