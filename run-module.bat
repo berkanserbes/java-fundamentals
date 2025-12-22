@@ -21,6 +21,7 @@ if "%~1"=="" (
     echo   11-ExceptionHandling
     echo   12-LambdaExpressions
     echo   13-Annotations
+    echo   14-Collections
     exit /b 1
 )
 
@@ -47,6 +48,7 @@ if "%MODULE%"=="10-OOP" set PACKAGE=oop
 if "%MODULE%"=="11-ExceptionHandling" set PACKAGE=exceptionhandling
 if "%MODULE%"=="12-LambdaExpressions" set PACKAGE=lambdaexpressions
 if "%MODULE%"=="13-Annotations" set PACKAGE=annotations
+if "%MODULE%"=="14-Collections" set PACKAGE=collections
 
 
 echo.
