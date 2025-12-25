@@ -69,3 +69,6 @@ int count = 10;       // Declaration + Initialization
 
 - [Oracle Java Variables Tutorial](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/variables.html)
 - [Java Naming Conventions](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html)
+- [Java Variables - Jenkov](https://jenkov.com/tutorials/java/variables.html)
+- [Java Variable Scope - Baeldung](https://www.baeldung.com/java-variable-scope)
+- [Java Type Inference - GeeksForGeeks](https://www.geeksforgeeks.org/java/local-variable-type-inference-or-lvti-in-java-10/)
