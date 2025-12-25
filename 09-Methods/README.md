@@ -151,3 +151,5 @@ By the end of this module, you will:
 - [Method Overloading - Programiz](https://www.programiz.com/java-programming/method-overloading)
 - [Java Recursion - Baeldung](https://www.baeldung.com/java-recursion)
 - [Pass-by-Value - Baeldung](https://www.baeldung.com/java-pass-by-value-or-pass-by-reference)
+- [Method Chaining - Jenkov](https://jenkov.com/tutorials/java/method-chaining.html)
+- [Method Chaining - GeeksforGeeks](https://www.geeksforgeeks.org/java/method-chaining-in-java-with-examples/)
