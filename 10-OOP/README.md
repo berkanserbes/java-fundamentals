@@ -321,6 +321,7 @@ animal.makeSound();  // Calls Dog's implementation
 
 - [Java OOP - Oracle Docs](https://docs.oracle.com/javase/tutorial/java/concepts/)
 - [Classes and Objects - Oracle](https://docs.oracle.com/javase/tutorial/java/javaOO/)
+- [Java Fields - Jenkov](https://jenkov.com/tutorials/java/fields.html#static-and-non-static-fields)
 - [Inheritance - Oracle](https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html)
 - [Interfaces - Oracle](https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html)
 - [Polymorphism - Oracle](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html) 
