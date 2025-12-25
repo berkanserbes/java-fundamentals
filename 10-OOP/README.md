@@ -333,3 +333,5 @@ animal.makeSound();  // Calls Dog's implementation
 - [Java Encapsulation - Tutorialspoint](https://www.tutorialspoint.com/java/java_encapsulation.htm)
 - [Java Inheritance - Jenkov](https://jenkov.com/tutorials/java/inheritance.html)
 - [Java Inheritance - DigitalOcean](https://www.digitalocean.com/community/tutorials/inheritance-java-example)
+- [Java Abstract Classes - Jenkov](https://jenkov.com/tutorials/java/abstract-classes.html)
+- [Java Interfaces vs Abstract Classes - Jenkov](https://jenkov.com/tutorials/java/interfaces-vs-abstract-classes.html)
