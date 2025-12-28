@@ -20,6 +20,7 @@ Java temellerini öğrenmek için kapsamlı bir çalışma alanı. Her modül ba
 | **12** | [Lambda Expressions](12-LambdaExpressions) | Lambda ifadeleri, functional interface'ler |
 | **13** | [Annotations](13-Annotations) | Annotation kullanımı, özel annotation'lar |
 | **14** | [Collections](14-Collections) | List, Set, Map, Queue ve koleksiyon işlemleri |
+| **15** | [Packages](15-Packages) | Package organizasyonu, import, erişim kontrolü |
 
 ## 🚀 Hızlı Başlangıç
 

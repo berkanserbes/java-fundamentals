@@ -10,6 +10,7 @@ This module provides comprehensive coverage of Object-Oriented Programming conce
 - Abstraction
 - Interfaces
 - Polymorphism
+- Enums (Enumerations)
 
 ## Learning Objectives
 
@@ -83,6 +84,19 @@ By the end of this module, you will:
    - Polymorphism with interfaces
    - Real-world examples (Employee system)
 
+8. **Enums** - Sabit değer tipleri
+   - Temel enum tanımı ve kullanımı
+   - Enum built-in metodları (name, ordinal, values, valueOf)
+   - Field'lı enum (HTTP Status, Planet)
+   - Method'lu enum (Operation, TrafficLight)
+   - Constructor'lu enum (ProgrammingLanguage)
+   - Switch-case ile enum kullanımı (Java 14+ switch expression dahil)
+   - Enum karşılaştırma (== vs equals)
+   - Interface implement eden enum
+   - Enum Singleton pattern
+   - EnumSet ve EnumMap kullanımı
+   - Nested enum ve abstract method'lu enum
+
 ## Running the Classes
 
 ```bash
@@ -93,6 +107,7 @@ By the end of this module, you will:
 .\run-module.bat 10-OOP Abstraction
 .\run-module.bat 10-OOP Interfaces
 .\run-module.bat 10-OOP Polymorphism
+.\run-module.bat 10-OOP Enums
 ```
 
 ## The Four Pillars of OOP
@@ -335,3 +350,8 @@ animal.makeSound();  // Calls Dog's implementation
 - [Java Inheritance - DigitalOcean](https://www.digitalocean.com/community/tutorials/inheritance-java-example)
 - [Java Abstract Classes - Jenkov](https://jenkov.com/tutorials/java/abstract-classes.html)
 - [Java Interfaces vs Abstract Classes - Jenkov](https://jenkov.com/tutorials/java/interfaces-vs-abstract-classes.html)
+- [A Guide to Java Enums - Baeldung](https://www.baeldung.com/a-guide-to-java-enums)
+- [Java Enums - Jenkov](https://jenkov.com/tutorials/java/enums.html)
+- [Java enums - Programiz](https://www.programiz.com/java-programming/enums)
+- [Java enum Constructor - Programiz](https://www.programiz.com/java-programming/enum-constructor)
+- [Java enum string- Programiz](https://www.programiz.com/java-programming/enum-string)

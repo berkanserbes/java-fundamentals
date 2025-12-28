@@ -34,6 +34,7 @@
         <module>12-LambdaExpressions</module>
         <module>13-Annotations</module>
         <module>14-Collections</module>
+        <module>15-Packages</module>
     </modules>
 
     <build>
