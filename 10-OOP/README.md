@@ -11,6 +11,7 @@ This module provides comprehensive coverage of Object-Oriented Programming conce
 - Interfaces
 - Polymorphism
 - Enums (Enumerations)
+- Records 
 
 ## Learning Objectives
 
@@ -97,6 +98,19 @@ By the end of this module, you will:
    - EnumSet ve EnumMap kullanımı
    - Nested enum ve abstract method'lu enum
 
+9. **Records** - Immutable veri sınıfları
+   - Temel record tanımı ve kullanımı
+   - Record component'leri (bileşenler)
+   - Otomatik oluşan metodlar (equals, hashCode, toString)
+   - Instance ve static metodlar ekleme
+   - Compact constructor (validation)
+   - Canonical constructor (full override)
+   - Özel constructor'lar (custom constructors)
+   - Interface implement eden record
+   - Nested record'lar ve composition
+   - Record vs Class karşılaştırması
+   - Gerçek dünya örnekleri (DTO, API Response, Config)
+
 ## Running the Classes
 
 ```bash
@@ -108,6 +122,7 @@ By the end of this module, you will:
 .\run-module.bat 10-OOP Interfaces
 .\run-module.bat 10-OOP Polymorphism
 .\run-module.bat 10-OOP Enums
+.\run-module.bat 10-OOP Records
 ```
 
 ## The Four Pillars of OOP
@@ -354,4 +369,9 @@ animal.makeSound();  // Calls Dog's implementation
 - [Java Enums - Jenkov](https://jenkov.com/tutorials/java/enums.html)
 - [Java enums - Programiz](https://www.programiz.com/java-programming/enums)
 - [Java enum Constructor - Programiz](https://www.programiz.com/java-programming/enum-constructor)
-- [Java enum string- Programiz](https://www.programiz.com/java-programming/enum-string)
+- [Java enum string - Programiz](https://www.programiz.com/java-programming/enum-string)
+- [Java Record Keyword - Baeldung](https://www.baeldung.com/java-record-keyword)
+- [Java Record - Jenkov](https://jenkov.com/tutorials/java/record.html)
+- [Java Records - GeeksforGeeks](https://www.geeksforgeeks.org/java/what-are-java-records-and-how-to-use-them-alongside-constructors-and-methods/)
+- [Java Records - Jakob Jenkov (YouTube)](https://www.youtube.com/watch?v=xs7DiEIHW0U)
+- [Java Records - Coding with John (YouTube)](https://www.youtube.com/watch?v=gJ9DYC-jswo)
