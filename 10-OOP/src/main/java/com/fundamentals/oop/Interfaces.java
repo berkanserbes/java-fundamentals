@@ -375,6 +375,19 @@ interface MathOperations {
         System.out.println("Math Operations Interface");
     }
 
+    // Default (instance) method — a default method belongs to an instance, not to
+    // the interface itself.
+    // It is implicitly public and provides a concrete implementation inside the
+    // interface.
+    // Classes that implement this interface inherit it automatically (unless they
+    // override it).
+    // Unlike static methods, it is invoked on an object (e.g., obj.method()), not
+    // on the interface name.
+    default int squareSum(int a, int b) {
+        int sum = add(a, b);
+        return sum * sum;
+    }
+
     static int add(int a, int b) {
         return a + b;
     }
