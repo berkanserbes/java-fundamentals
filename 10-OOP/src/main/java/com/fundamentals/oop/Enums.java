@@ -509,7 +509,7 @@ public class Enums {
         // 4. Abstract method ile enum
         System.out.println("\n4. Abstract Method ile Enum:");
         System.out.println("─────────────────────────────────────────");
-        for (PaymentMethod payment : PaymentMethod.values()) {
+        for (PaymentMethodEnum payment : PaymentMethodEnum.values()) {
             double amount = 100.0;
             System.out.printf("  %s: %.2f TL -> İşlem Ücreti: %.2f TL%n",
                     payment.name(), amount, payment.calculateFee(amount));
@@ -985,7 +985,7 @@ class Vehicle {
  * Abstract method ile ödeme yöntemleri
  * Her ödeme yöntemi kendi ücret hesaplamasını yapar
  */
-enum PaymentMethod {
+enum PaymentMethodEnum {
     CASH {
         @Override
         public double calculateFee(double amount) {

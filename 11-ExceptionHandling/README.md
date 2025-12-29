@@ -416,3 +416,6 @@ Bu modülü tamamladıktan sonra:
 - [Chained Exceptions in Java - Baeldung](https://www.baeldung.com/java-chained-exceptions)
 - [Difference Between Throw and Throws in Java - Baeldung](https://www.baeldung.com/java-throw-throws)
 - [Java – Try with Resources - Baeldung](https://www.baeldung.com/java-try-with-resources)
+- [Static and dynamic binding in java - Beginnersbook](https://beginnersbook.com/2013/04/java-static-dynamic-binding/)
+- [Static and Dynamic Binding in Java - Baeldung](https://www.baeldung.com/java-static-dynamic-binding)
+- [Static vs Dynamic Binding in Java - GeeksforGeeks](https://www.geeksforgeeks.org/java/static-vs-dynamic-binding-in-java/)
