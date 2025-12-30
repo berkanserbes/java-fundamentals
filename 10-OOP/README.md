@@ -11,7 +11,8 @@ This module provides comprehensive coverage of Object-Oriented Programming conce
 - Interfaces
 - Polymorphism
 - Enums (Enumerations)
-- Records 
+- Records
+- Initializer Blocks
 
 ## Learning Objectives
 
@@ -85,31 +86,40 @@ By the end of this module, you will:
    - Polymorphism with interfaces
    - Real-world examples (Employee system)
 
-8. **Enums** - Sabit değer tipleri
-   - Temel enum tanımı ve kullanımı
-   - Enum built-in metodları (name, ordinal, values, valueOf)
-   - Field'lı enum (HTTP Status, Planet)
-   - Method'lu enum (Operation, TrafficLight)
-   - Constructor'lu enum (ProgrammingLanguage)
-   - Switch-case ile enum kullanımı (Java 14+ switch expression dahil)
-   - Enum karşılaştırma (== vs equals)
-   - Interface implement eden enum
+8. **Enums** - Constant value types
+   - Basic enum definition and usage
+   - Enum built-in methods (name, ordinal, values, valueOf)
+   - Enum with fields (HTTP Status, Planet)
+   - Enum with methods (Operation, TrafficLight)
+   - Enum with constructor (ProgrammingLanguage)
+   - Switch-case with enum (including Java 14+ switch expression)
+   - Enum comparison (== vs equals)
+   - Interface implementing enum
    - Enum Singleton pattern
-   - EnumSet ve EnumMap kullanımı
-   - Nested enum ve abstract method'lu enum
+   - EnumSet and EnumMap usage
+   - Nested enum and abstract method enum
 
-9. **Records** - Immutable veri sınıfları
-   - Temel record tanımı ve kullanımı
-   - Record component'leri (bileşenler)
-   - Otomatik oluşan metodlar (equals, hashCode, toString)
-   - Instance ve static metodlar ekleme
+9. **Records** - Immutable data classes
+   - Basic record definition and usage
+   - Record components
+   - Auto-generated methods (equals, hashCode, toString)
+   - Instance and static methods
    - Compact constructor (validation)
    - Canonical constructor (full override)
-   - Özel constructor'lar (custom constructors)
-   - Interface implement eden record
-   - Nested record'lar ve composition
-   - Record vs Class karşılaştırması
-   - Gerçek dünya örnekleri (DTO, API Response, Config)
+   - Custom constructors
+   - Interface implementation with records
+   - Nested records and composition
+   - Record vs Class comparison
+   - Real-world examples (DTO, API Response, Config)
+
+10. **InitializerBlocks** - Initialization logic
+    - Instance initializer blocks
+    - Static initializer blocks
+    - Execution order (static -> instance -> constructor)
+    - Multiple initializer blocks
+    - Inheritance with initializer blocks
+    - Local blocks for variable scoping
+    - Real-world examples (configuration, unique ID generation, resource loading)
 
 ## Running the Classes
 
@@ -123,6 +133,7 @@ By the end of this module, you will:
 .\run-module.bat 10-OOP Polymorphism
 .\run-module.bat 10-OOP Enums
 .\run-module.bat 10-OOP Records
+.\run-module.bat 10-OOP InitializerBlocks
 ```
 
 ## The Four Pillars of OOP
@@ -375,3 +386,7 @@ animal.makeSound();  // Calls Dog's implementation
 - [Java Records - GeeksforGeeks](https://www.geeksforgeeks.org/java/what-are-java-records-and-how-to-use-them-alongside-constructors-and-methods/)
 - [Java Records - Jakob Jenkov (YouTube)](https://www.youtube.com/watch?v=xs7DiEIHW0U)
 - [Java Records - Coding with John (YouTube)](https://www.youtube.com/watch?v=gJ9DYC-jswo)
+- [What is an initialization block? - StackOverflow](https://stackoverflow.com/questions/3987428/what-is-an-initialization-block)
+- [Static vs. Instance Initializer Block in Java - Baeldung](https://www.baeldung.com/java-static-instance-initializer-blocks) 
+- [Java Initialization Blocks: Deep Dive and Practical Insights - Medium](https://medium.com/@max980203/java-initialization-blocks-deep-dive-and-practical-insights-3316f1f6cae1)
+- [Order of Execution of Initialization Blocks and Constructors in Java - GeeksforGeeks](https://www.geeksforgeeks.org/java/order-of-execution-of-initialization-blocks-constructors-in-java/)
