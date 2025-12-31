@@ -49,6 +49,8 @@ if "%MODULE%"=="11-ExceptionHandling" set PACKAGE=exceptionhandling
 if "%MODULE%"=="12-LambdaExpressions" set PACKAGE=lambdaexpressions
 if "%MODULE%"=="13-Annotations" set PACKAGE=annotations
 if "%MODULE%"=="14-Collections" set PACKAGE=collections
+if "%MODULE%"=="15-Packages" set PACKAGE=packages
+if "%MODULE%"=="16-Modules" set PACKAGE=modules
 
 
 echo.

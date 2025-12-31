@@ -35,6 +35,7 @@
         <module>13-Annotations</module>
         <module>14-Collections</module>
         <module>15-Packages</module>
+        <module>16-Modules</module>
     </modules>
 
     <build>
