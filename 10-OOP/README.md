@@ -10,6 +10,7 @@ This module provides comprehensive coverage of Object-Oriented Programming conce
 - Abstraction
 - Interfaces
 - Polymorphism
+- Nested Classes
 - Enums (Enumerations)
 - Records
 - Initializer Blocks
@@ -121,6 +122,14 @@ By the end of this module, you will:
     - Local blocks for variable scoping
     - Real-world examples (configuration, unique ID generation, resource loading)
 
+11. **NestedClasses** - Classes within classes
+    - Static nested classes
+    - Inner classes (non-static nested classes)
+    - Local classes (defined inside methods)
+    - Anonymous classes
+    - Shadowing and Outer.this reference
+    - When to use each type
+
 ## Running the Classes
 
 ```bash
@@ -134,6 +143,7 @@ By the end of this module, you will:
 .\run-module.bat 10-OOP Enums
 .\run-module.bat 10-OOP Records
 .\run-module.bat 10-OOP InitializerBlocks
+.\run-module.bat 10-OOP NestedClasses
 ```
 
 ## The Four Pillars of OOP
@@ -390,3 +400,5 @@ animal.makeSound();  // Calls Dog's implementation
 - [Static vs. Instance Initializer Block in Java - Baeldung](https://www.baeldung.com/java-static-instance-initializer-blocks) 
 - [Java Initialization Blocks: Deep Dive and Practical Insights - Medium](https://medium.com/@max980203/java-initialization-blocks-deep-dive-and-practical-insights-3316f1f6cae1)
 - [Order of Execution of Initialization Blocks and Constructors in Java - GeeksforGeeks](https://www.geeksforgeeks.org/java/order-of-execution-of-initialization-blocks-constructors-in-java/)
+- [Java Nested Classes - Jenkov](https://jenkov.com/tutorials/java/nested-classes.html)
+- [Nested Classes in Java - Baeldung](https://www.baeldung.com/java-nested-classes)
