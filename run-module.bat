@@ -51,6 +51,7 @@ if "%MODULE%"=="13-Annotations" set PACKAGE=annotations
 if "%MODULE%"=="14-Collections" set PACKAGE=collections
 if "%MODULE%"=="15-Packages" set PACKAGE=packages
 if "%MODULE%"=="16-Modules" set PACKAGE=modules
+if "%MODULE%"=="17-Optionals" set PACKAGE=optionals
 
 
 echo.
