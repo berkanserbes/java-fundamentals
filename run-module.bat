@@ -22,6 +22,10 @@ if "%~1"=="" (
     echo   12-LambdaExpressions
     echo   13-Annotations
     echo   14-Collections
+    echo   15-Packages
+    echo   16-Modules
+    echo   17-Optionals
+    echo   18-Generics
     exit /b 1
 )
 
@@ -52,6 +56,7 @@ if "%MODULE%"=="14-Collections" set PACKAGE=collections
 if "%MODULE%"=="15-Packages" set PACKAGE=packages
 if "%MODULE%"=="16-Modules" set PACKAGE=modules
 if "%MODULE%"=="17-Optionals" set PACKAGE=optionals
+if "%MODULE%"=="18-Generics" set PACKAGE=generics   
 
 
 echo.

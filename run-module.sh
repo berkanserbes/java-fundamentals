@@ -21,6 +21,11 @@ if [ -z "$1" ] || [ -z "$2" ]; then
     echo "  11-ExceptionHandling"
     echo "  12-LambdaExpressions"
     echo "  13-Annotations"
+    echo "  14-Collections"
+    echo "  15-Packages"
+    echo "  16-Modules"
+    echo "  17-Optionals"
+    echo "  18-Generics"
     exit 1
 fi
 
