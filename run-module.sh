@@ -26,6 +26,7 @@ if [ -z "$1" ] || [ -z "$2" ]; then
     echo "  16-Modules"
     echo "  17-Optionals"
     echo "  18-Generics"
+    echo "  19-DependencyInjection"
     exit 1
 fi
 
