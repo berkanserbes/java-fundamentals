@@ -27,6 +27,7 @@ if "%~1"=="" (
     echo   17-Optionals
     echo   18-Generics
     echo   19-DependencyInjection
+    echo   20-IO
     exit /b 1
 )
 
@@ -59,6 +60,7 @@ if "%MODULE%"=="16-Modules" set PACKAGE=modules
 if "%MODULE%"=="17-Optionals" set PACKAGE=optionals
 if "%MODULE%"=="18-Generics" set PACKAGE=generics   
 if "%MODULE%"=="19-DependencyInjection" set PACKAGE=di
+if "%MODULE%"=="20-IO" set PACKAGE=io
 
 echo.
 echo ========================================

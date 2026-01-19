@@ -39,6 +39,7 @@
         <module>17-Optionals</module>
         <module>18-Generics</module>
         <module>19-DependencyInjection</module>
+        <module>20-IO</module>
     </modules>
 
     <build>
